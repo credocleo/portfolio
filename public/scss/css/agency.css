@@ -189,14 +189,14 @@ div.smallspaceafter{
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
-  color: rgb(119,205,138);
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: white;
+  font-family: Consolas, monaco, monospace;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: rgb(119,205,138);
+  color: white;
 }
 .navbar-custom .navbar-collapse {
   border-color: rgba(255, 255, 255, 0.02);
