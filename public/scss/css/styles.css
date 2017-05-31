@@ -164,12 +164,18 @@ fieldset[disabled] .btn-xl.active {
   border-color: #33cc33;
 }
 
+
+
 div.space-before{
   margin-top: 50px;
 }
 
 div.bigspaceafter{
   margin-bottom: 100px;
+}
+
+div.averagespaceafter{
+  margin-bottom: 50px;
 }
 
 div.mediumspaceafter{
@@ -188,10 +194,21 @@ div.smallspaceafter{
   margin-top: 100px;
 }
 
+.toobigtopspace{
+  margin-top: 200px;
+}
+
 .halftopspace{
   margin-top: 50px;
 }
 
+.hundredpxspace{
+  margin-bottom: 200px;
+}
+
+.fiftypxafter{
+  margin-bottom: 50px;
+}
 
 .btn-xl .badge {
   color: #33cc33;
@@ -214,11 +231,13 @@ div.smallspaceafter{
   margin: auto;
 }
 
+.putright{
+   float: right !important;
+}
 
 .putleft{
    float: left !important;
 }
-
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
@@ -573,6 +592,7 @@ techLogo{
 
 .portfolio-text{
   color: white;
+  font-size: 1em;
 }
 
 .timeline {
