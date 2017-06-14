@@ -10,6 +10,11 @@ app.get('/', function(request,response){
 	response.render('index.html');
 });
 
+app.get('/name' function(request,response){
+	let message = {"name": "Cleo"}
+	response.send(JSON.stringify(message));
+});
+
 app.listen(PORT, function(){
 	console.log('Server listening on' + PORT);
 });
